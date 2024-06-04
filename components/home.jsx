@@ -11,11 +11,12 @@ const HomePage = () => {
           <h5 class="h-bold">FROM SEED TO FORK</h5>
 
           <div class="input">
-            <input type="text" placeholder="what would you like to buy" />
+            <input type="text" placeholder="What would you like to buy" />
             <a class="button-solid">Subscribe</a>
           </div>
         </div>
       </section>
+
 {/* <!-- -----------Specialize----------- -->*/}
       <section class="specialize">
         <div class="heading">
