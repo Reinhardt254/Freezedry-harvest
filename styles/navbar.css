@@ -1,0 +1,56 @@
+.navbar{
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   box-sizing: border-box;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.navbar img{
+   width: 20vw;
+   padding: 0.3rem 0rem 0rem 0rem;
+}
+
+.navbar .links{
+   width: 55%;
+   display: flex;
+   justify-content: center;
+}
+
+.navbar a{
+   text-decoration: none;
+   padding: 0rem 0.8rem;
+   color: black;
+}
+
+.navbar a:hover{
+   color: orange;
+}
+
+.navbar .contact{
+   width: auto;
+   float: right;
+   margin-left: auto;
+}
+
+.navbar .contact a{
+   background-color: orange;
+   padding: 0.5rem 1rem;
+   border-radius: 5rem;
+   color: white;
+   font-size: 0.95rem;
+   border: 1px solid orange;
+}
+
+.navbar .contact a:hover{
+   background-color: white;
+   color: orange;
+   transition: 0.6s ease;
+}
+
+

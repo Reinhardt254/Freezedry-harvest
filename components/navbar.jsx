@@ -3,17 +3,16 @@ import React from "react";
 const Navbar = () => {
   return (
     <div class="navbar">
-      <div class="navbar-logo-container">
+      <div class="logo">
         <a href="/">
-          <img 
-             src="" 
-             class="navbar-logo-image" 
+          <img  
+             src="./color.png" 
              alt="Navbar logo" 
           />
         </a>
       </div>
 
-      <div class="navbar-links-container">
+      <div class="links">
         <a href="/" class="">
           Home
         </a>
@@ -21,10 +20,8 @@ const Navbar = () => {
         <a href="/product">Products</a>
       </div>
 
-      <div class="contact-button-container">
-        <button>
+      <div class="contact">
           <a href="/contact">Contact Us</a>
-        </button>
       </div>
     </div>
   );

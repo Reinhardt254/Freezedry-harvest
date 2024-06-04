@@ -5,7 +5,7 @@ const Footer = () => {
     <div class="footer">
       <div class="container">
         <div class="column">
-          <div class="h1">QUICK LINKS</div>
+          <h1>QUICK LINKS</h1>
           <div class="links">
             <a>Home</a>
             <a>About Us</a>
@@ -16,29 +16,31 @@ const Footer = () => {
         </div>
 
         <div class="column">
-          <div class="h1">GET IN TOUCH</div>
-          <div>
-            <img src="" class="icon" alt="phone number icon" />
-            <div class="p">+91 123 456 7890</div>
+          <h1>GET IN TOUCH</h1>
+          <div class="row">
+            {/* <img src="" class="icon" alt="phone number icon" /> */}
+            <p>+91 123 456 7890</p>
           </div>
-          <div>
-            <img src="" class="icon" alt="email icon" />
-            <div class="p">info@freezedryharvestkenya.com</div>
+          <div class="row">
+            {/* <img src="" class="icon" alt="email icon" /> */}
+            <p>info@freezedryharvestkenya.com</p>
           </div>
-          <div>
-            <img src="" class="icon" alt="location" />
-            <div class="p">Naivasha, Kenya</div>
+          <div class="row">
+            {/* <img src="" class="icon" alt="location" /> */}
+            <p>Naivasha, Kenya</p>
           </div>
         </div>
 
-        <div class="column">
-          <img src="" class="footer-logo-image" alt="Footer logo" />
+        <div class="column logo">
+          <img src="./footer.png" alt="Footer logo" />
         </div>
       </div>
 
-      <div>
-        <div>Copyright</div>
-        <div>Social media</div>
+      <div class="rights">
+        <p>
+          Copyright 2023 Freezedry Harvest Kenya EPZ Limited. All Rights
+          Reserved
+        </p>
       </div>
     </div>
   );
