@@ -1,0 +1,340 @@
+/* ---------Home layout------- */
+.home-layout {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
+.home-layout img {
+  width: 100%;
+}
+
+.home-layout .container {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  text-align: center;
+}
+
+.home-layout h1 {
+  font-size: 2.2rem;
+}
+
+.home-layout h3 {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+.home-layout h5 {
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.home-layout input {
+  height: 2.4rem;
+  width: 15rem;
+  padding: 0rem 1rem;
+  margin-right: 0.4rem;
+  border-radius: 5rem;
+  border: 0px solid black;
+  background-color: #fbfbfb;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+
+  text-align: start;
+  font-size: 0.9rem;
+  color: black;
+}
+
+/* ------home specialize--------- */
+
+.specialize {
+  width: 100%;
+  height: 100%;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10%;
+  padding-left: 10%;
+
+  box-sizing: border-box;
+}
+
+.specialize .heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.specialize .container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialize .heading {
+  text-align: center;
+}
+
+.specialize .container .card {
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialize .container .card img {
+  border-radius: 100%;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgb(0, 0, 0, 0.05);
+  width: 6.5rem;
+}
+
+.specialize .container .card p {
+  display: block;
+  min-height: 8rem;
+  text-align: center;
+}
+
+.specialize .container .card a {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.specialize .container .card a:hover {
+  color: white;
+  background-color: orange;
+}
+
+/* ----------Who we are-------- */
+
+.who-we-are {
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10%;
+
+  display: flex;
+  background-color: #fbfbfb;
+}
+
+.who-we-are .image {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-we-are img {
+  width: 70%;
+  max-width: 30rem;
+}
+
+.who-we-are .container {
+  width: 100%;
+}
+
+.who-we-are p {
+  padding-bottom: 1rem;
+}
+
+.who-we-are a {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 5rem;
+}
+
+/* ------------home Newsletter---------------- */
+.home-newsletter {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-newsletter .container {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-newsletter p {
+  padding: 1rem 0rem;
+}
+
+.home-newsletter input {
+  height: 2.4rem;
+  width: 15rem;
+  padding: 0rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 5rem;
+  border: 0px solid black;
+  background-color: #fbfbfb;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+
+  text-align: start;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.home-newsletter a {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  border: 1px solid orange;
+}
+
+.home-newsletter a:hover {
+  background-color: white;
+  color: orange;
+}
+
+/* ------------Home contact-------------- */
+
+.home-contact {
+  width: 100%;
+  height: 100%;
+
+  padding: 2rem 10%;
+  box-sizing: border-box;
+
+  background-color: #fbfbfb;
+}
+
+.home-contact .container {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.home-contact .column {
+  width: 100%;
+  padding: 1rem;
+}
+
+.home-contact .text {
+  width: 40%;
+}
+
+.home-contact .form {
+  background-color: orange;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 500px;
+  padding: 2rem 1rem;
+}
+
+.home-contact .row {
+  width: auto;
+  padding: 0.5rem;
+}
+
+.home-contact .text h1 {
+  padding-bottom: 0.5rem;
+}
+
+.home-contact .phone {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding-top: 1rem;
+}
+
+.home-contact .phone img {
+  width: 30px;
+  height: 30px;
+}
+
+.home-contact .phone p {
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+.home-contact input {
+  height: 2.2rem;
+  width: 100%;
+  margin: 0rem 0.5rem;
+  border-radius: 3px;
+  border: 0px solid black;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+
+  text-align: start;
+  font-size: 0.9rem;
+  color: black;
+  padding: 0rem 1rem;
+}
+
+.home-contact textarea {
+  height: 8rem;
+  width: 100%;
+
+  padding: 1rem;
+  margin: 0rem 0.5rem;
+
+  box-sizing: border-box;
+
+  border-radius: 3px;
+  border: 0px solid black;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+
+  text-align: start;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.home-contact button {
+  background-color: orange;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 100;
+}
+
+.home-contact button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: orange;
+  transition: 0.8s ease;
+}

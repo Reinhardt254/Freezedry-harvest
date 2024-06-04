@@ -10,6 +10,85 @@ h5{
    margin: 0;
 }
 
+p{
+   margin: 0;
+}
+
 body{
    margin: 0;
+}
+
+input[type=text]:focus{
+   outline: none !important;
+}
+
+textarea[type=text]:focus{
+   outline: none !important;
+}
+
+button{
+
+}
+
+.heading{
+   display: flex;
+}
+
+.pr{
+   padding-right: 0.4rem;
+}
+
+.h-semibold{
+  font-weight: 300; 
+}
+
+.h-bold{
+   font-weight: 500;
+}
+
+.subheading{
+   font-weight: 400;
+}
+
+.heading-center{
+   text-align: center;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button-clear{
+   color: orange;
+   border: 1px solid orange;
+   border-radius: 5rem;
+   padding: 0.5rem;
+   padding-right: 1rem;
+   padding-left: 1rem;
+   cursor: pointer;
+}
+
+.button-clear:hover{
+   color: white;
+   background-color: orange;
+}
+
+.button-solid{
+   background-color: orange;
+   color: white;
+   padding: 0.5rem 1.5rem;
+   border-radius: 5rem;
+   cursor: pointer;
+   border: 1px solid orange;
+}
+
+.button-solid:hover{
+   background-color: white;
+   color: orange;
+}
+
+.center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
