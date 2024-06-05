@@ -1,0 +1,78 @@
+/* -------------Fruits Layout------- */
+.fruits{
+   height: 100%;
+   width: 100%;
+}
+
+.fruits-layout{
+   height: 100%;
+   width: 100%;
+
+   position: relative;
+}
+
+.fruits-layout img{
+   width: 100%;
+   height: 100%;
+}
+
+.fruits-layout .content{
+   /* width: 100%;
+   height: 100%; */
+   position: absolute;
+   left: 50%;
+   bottom: 50%;
+   transform: translate(-50%, 50%);
+}
+
+/* ------------Fruits Description------------ */
+
+.fruits-desc{
+   width: 100%;
+   height: 100%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.fruits-desc p{
+   text-align: center;
+}
+
+/* ----------Fruits Grid------------ */
+
+.fruits-grid{
+   width: 100%;
+   height: 100%;
+   background-color: #F7F6F1;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+}
+
+.fruits-grid img{
+  width: 8rem;
+}
+
+.fruits-grid .container{
+   display: grid;
+   grid-template-columns:repeat(3, 1fr);
+}
+
+/* ----------Product Contact---------- */
+
+.products-contact{
+   text-align: center;
+   padding: 3rem 0rem 4rem 0rem;
+}
+
+.products-contact .container{
+
+}
+
+.products-contact h1{
+   padding-top: 1rem;
+}
+
+.products-contact .button{
+   padding-top: 2rem;
+}
+

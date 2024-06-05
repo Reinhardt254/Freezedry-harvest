@@ -19,7 +19,7 @@ const HomePage = () => {
 
 {/* <!-- -----------Specialize----------- -->*/}
       <section class="specialize">
-        <div class="heading">
+        <div class="heading heading-center">
           <h1 class="pr h-semibold">WE</h1>
           <h1 class="h-bold">SPECIALIZE IN</h1>
         </div>
@@ -67,7 +67,7 @@ const HomePage = () => {
           <img src="./Granola.png" alt="who we are image" class="" />
         </div>
         <div class="container">
-          <div class="heading">
+          <div class="heading heading-center">
             <h1 class="h-semibold pr">WHO</h1>
             <h1 class="h-bold">WE ARE</h1>
           </div>
@@ -86,7 +86,7 @@ const HomePage = () => {
       <section class="home-newsletter">
         <img src="" alt="" />
         <div class="container">
-          <div class="heading">
+          <div class="heading heading-center">
             <h1 class="h-semibold pr">SIGN UP FOR OUR</h1>
             <h1 class="h-bold">NEWSLETTER</h1>
           </div>

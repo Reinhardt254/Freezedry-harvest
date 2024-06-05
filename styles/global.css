@@ -3,120 +3,105 @@
    GREENISH: #F7F6F1
  */
 
- /* 
+/* 
     TITLES:  CODE BOLD
     BODY:  POPPINS
  */
 
-a{
-   text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-h3{
-   margin: 0;
+body, h1, h2, h3, h4, h5, p {
+  margin: 0;
 }
 
-h1{
-   margin: 0;
+input[type="text"]:focus {
+  outline: none !important;
 }
 
-h5{
-   margin: 0;
+textarea[type="text"]:focus {
+  outline: none !important;
 }
 
-p{
-   margin: 0;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body{
-   margin: 0;
-}
-
-input[type=text]:focus{
-   outline: none !important;
-}
-
-textarea[type=text]:focus{
-   outline: none !important;
-}
-
-button{
-
-}
-
-.heading{
-   display: flex;
-   font-size: 1.2rem;
-}
-
-.pr{
-   padding-right: 0.4rem;
-}
-
-.h-semibold{
-  font-weight: 300; 
-}
-
-.h-bold{
-   font-weight: 600;
-}
-
-.subheading{
-   font-weight: 400;
-}
-
-
-@media only screen and (min-width: 1400px){
-
-}
-
-@media only screen and (max-width: 950px){
-
-}
-
-@media only screen and (max-width: 600px){
-
-}
-
-.heading-center{
+.text-center{
    text-align: center;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
-.button-clear{
-   color: orange;
-   border: 1px solid orange;
-   border-radius: 5rem;
-   padding: 0.5rem;
-   padding-right: 1rem;
-   padding-left: 1rem;
-   cursor: pointer;
+.margins {
+   padding-left: 10%;
+   padding-right: 10%;
+   box-sizing: border-box;
+ }
+ 
+ .pr {
+   padding-right: 0.4rem;
+ }
+
+.heading-center {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.button-clear:hover{
-   color: white;
-   background-color: orange;
+.heading {
+  font-size: 1.2rem;
 }
 
-.button-solid{
-   background-color: orange;
-   color: white;
-   padding: 0.5rem 1.5rem;
-   border-radius: 5rem;
-   cursor: pointer;
-   border: 1px solid orange;
+.h-semibold {
+  font-weight: 300;
 }
 
-.button-solid:hover{
-   background-color: white;
-   color: orange;
+.h-bold {
+  font-weight: 600;
 }
 
-.center{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.subheading {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (max-width: 950px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+.button-clear {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.button-clear:hover {
+  color: white;
+  background-color: orange;
+}
+
+.button-solid {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  border: 1px solid orange;
+}
+
+.button-solid:hover {
+  background-color: white;
+  color: orange;
 }

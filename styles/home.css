@@ -65,10 +65,6 @@
 }
 
 .specialize .heading {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
 }
@@ -80,10 +76,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
-
-.specialize .heading {
-  text-align: center;
 }
 
 .specialize .container .card {
