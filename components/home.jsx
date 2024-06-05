@@ -117,7 +117,7 @@ const HomePage = () => {
               ever since 1500s.
             </p>
             <div class="phone">
-              <img src="phone Icon.png" alt="phone icon" />
+              <img src="Phone Icon.png" alt="phone icon" />
               <div>
                 <p>Call Us Today</p>
                 <p class="h-bold">+91 123 456 7890</p>

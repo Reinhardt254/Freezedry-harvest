@@ -71,7 +71,7 @@ const About = () => {
           <h1 class="h-bold">VALUES</h1>
         </div>
         <div>
-          <img src="./values.png" alt="our values icons" loading="lazy" />
+          <img src="./Values.png" alt="our values icons" loading="lazy" />
           <div class="container">
             <div class="column">
               <h1>Premium</h1>
