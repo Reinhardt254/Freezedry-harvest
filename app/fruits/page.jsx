@@ -27,19 +27,19 @@ const Fruits = () => {
       <section class="fruits-grid margins">
         <div class="container">
           <div class="card">
-            <img src="granola.png" alt="strawberry" />
+            <img src="Granola.png" alt="strawberry" />
             <h2>STRAWBERRY</h2>
           </div>
           <div class="card">
-            <img src="granola.png" alt="banana" />
+            <img src="Granola.png" alt="banana" />
             <h2>BANANA</h2>
           </div>
           <div class="card">
-            <img src="granola.png" alt="pineapple" />
+            <img src="Granola.png" alt="pineapple" />
             <h2>PINEAPPLE</h2>
           </div>
           <div class="card">
-            <img src="granola.png" alt="mangoe" />
+            <img src="Granola.png" alt="mangoe" />
             <h2>MANGOE</h2>
           </div>
         </div>
