@@ -3,6 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <main class="contact">
+      {/* <!-- --------------Contact Layout---------- --> */}
       <section class="contact-layout">
         <div class="container">
           <h1 class="h-bold">LET`S TALK</h1>
@@ -13,6 +14,8 @@ const Contact = () => {
           </h1>
         </div>
       </section>
+
+      {/* <!-- ---------------Contact Form----------------- --> */}
       <section class="contact-form">
         <div class="column form">
           <form>
