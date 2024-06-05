@@ -38,7 +38,7 @@ const Footer = () => {
 
       <div class="rights">
         <p>
-          Copyright 2023 Freezedry Harvest Kenya EPZ Limited. All Rights
+          Copyright 2024 Freezedry Harvest Kenya EPZ Limited. All Rights
           Reserved
         </p>
       </div>

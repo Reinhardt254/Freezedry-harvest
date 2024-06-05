@@ -1,3 +1,13 @@
+/* 
+   YELLOW: #EA9A27
+   GREENISH: #F7F6F1
+ */
+
+ /* 
+    TITLES:  CODE BOLD
+    BODY:  POPPINS
+ */
+
 a{
    text-decoration: none;
 }
@@ -36,6 +46,7 @@ button{
 
 .heading{
    display: flex;
+   font-size: 1.2rem;
 }
 
 .pr{
@@ -47,11 +58,24 @@ button{
 }
 
 .h-bold{
-   font-weight: 500;
+   font-weight: 600;
 }
 
 .subheading{
    font-weight: 400;
+}
+
+
+@media only screen and (min-width: 1400px){
+
+}
+
+@media only screen and (max-width: 950px){
+
+}
+
+@media only screen and (max-width: 600px){
+
 }
 
 .heading-center{

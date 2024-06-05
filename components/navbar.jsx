@@ -5,10 +5,7 @@ const Navbar = () => {
     <div class="navbar">
       <div class="logo">
         <a href="/">
-          <img  
-             src="./color.png" 
-             alt="Navbar logo" 
-          />
+          <img src="./color.png" alt="Navbar logo" />
         </a>
       </div>
 
@@ -17,11 +14,18 @@ const Navbar = () => {
           Home
         </a>
         <a href="/about">About Us</a>
-        <a href="/product">Products</a>
+        <div class="dropdown">
+          <a class="dropbtn">Products</a>
+          <div class="dropdown-content">
+            <a href="/fruits">Fruits</a>
+            <a href="/herbs">Herbs</a>
+            <a href="/leafygreens">Leafygreens</a>
+          </div>
+        </div>
       </div>
 
       <div class="contact">
-          <a href="/contact">Contact Us</a>
+        <a href="/contact">Contact Us</a>
       </div>
     </div>
   );

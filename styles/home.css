@@ -8,7 +8,7 @@
 
 .home-layout img {
   width: 100%;
-}
+} 
 
 .home-layout .container {
   position: absolute;
@@ -79,7 +79,7 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .specialize .heading {
@@ -94,7 +94,7 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -107,13 +107,14 @@
 
 .specialize .container .card p {
   display: block;
-  min-height: 8rem;
+  min-height: 10rem;
+  width: 18rem;
   text-align: center;
 }
 
 .specialize .container .card a {
-  color: orange;
-  border: 1px solid orange;
+  color: #EA9A27;
+  border: 1px solid #EA9A27;
   border-radius: 5rem;
   padding: 0.5rem;
   padding-right: 1rem;
@@ -123,7 +124,7 @@
 
 .specialize .container .card a:hover {
   color: white;
-  background-color: orange;
+  background-color: #EA9A27;
 }
 
 /* ----------Who we are-------- */
@@ -162,16 +163,24 @@
 }
 
 .who-we-are p {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .who-we-are a {
-  background-color: orange;
+  background-color: #EA9A27;
   color: white;
   padding: 0.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
   border-radius: 5rem;
+  cursor: pointer;
+  border: 1px solid #EA9A27;
+}
+
+.who-we-are a:hover {
+  background-color: white;
+  color: #EA9A27;
+  transition: 0.6s ease;
 }
 
 /* ------------home Newsletter---------------- */
@@ -212,17 +221,17 @@
 }
 
 .home-newsletter a {
-  background-color: orange;
+  background-color: #EA9A27;
   color: white;
   padding: 0.5rem 1.3rem;
   border-radius: 5rem;
   cursor: pointer;
-  border: 1px solid orange;
+  border: 1px solid #EA9A27;
 }
 
 .home-newsletter a:hover {
   background-color: white;
-  color: orange;
+  color: #EA9A27;
 }
 
 /* ------------Home contact-------------- */
@@ -231,7 +240,7 @@
   width: 100%;
   height: 100%;
 
-  padding: 2rem 10%;
+  padding: 2rem 5% 4rem 5%;
   box-sizing: border-box;
 
   background-color: #fbfbfb;
@@ -252,11 +261,12 @@
 }
 
 .home-contact .form {
-  background-color: orange;
+  background-color: #EA9A27;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
   max-width: 500px;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
+  margin-left: auto;
 }
 
 .home-contact .row {
@@ -295,7 +305,7 @@
   border-radius: 3px;
   border: 0px solid black;
   background-color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001); */
 
   text-align: start;
   font-size: 0.9rem;
@@ -315,7 +325,7 @@
   border-radius: 3px;
   border: 0px solid black;
   background-color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.001); */
 
   text-align: start;
   font-size: 0.9rem;
@@ -323,7 +333,7 @@
 }
 
 .home-contact button {
-  background-color: orange;
+  background-color: #EA9A27;
   border: 1px solid white;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
@@ -336,6 +346,6 @@
 .home-contact button:hover {
   background-color: white;
   border: 1px solid white;
-  color: orange;
+  color: #EA9A27;
   transition: 0.8s ease;
 }
