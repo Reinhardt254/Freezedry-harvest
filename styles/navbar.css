@@ -99,5 +99,54 @@
    display: block;
 }
 
+.links-mobile{
+   position: fixed;
+   background-color: white;
+   min-height: 100vh;
+   width: 100%;
+   top: 0;
+   left: 0;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding-top: 40%;
+}
+
+.links-mobile a{
+   color: black;
+   padding-bottom: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+.menu{
+   cursor: pointer;
+}
+
+.close{
+   position: absolute;
+   top: 1rem;
+   right: 2rem;
+
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+   .navbar img{
+      width: 40vw;
+      padding: 0.3rem 0rem 0rem 0rem;
+   } 
+
+   .navbar .links{
+     display: none;
+   }
+
+   .navbar .contact{
+     display: none;
+   }
+}
+
 
 

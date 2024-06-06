@@ -11,7 +11,6 @@ const HomePage = () => {
           <h5 class="h-bold">FROM SEED TO FORK</h5>
 
           <div class="input">
-            <div></div>
             <input type="text" placeholder="What would you like to buy" />
             <img src="./Search.png" alt="" class="" />
             <a class="button-solid">Subscribe</a>
@@ -35,7 +34,7 @@ const HomePage = () => {
             </p>
             <a class="button-clear">Read More</a>
           </div>
-
+ 
           <div class="card">
             <img src="./Herbs Icon.png" alt="Herbs Icon" class="" />
             <h1 class="subheading">Herbs</h1>
@@ -91,7 +90,7 @@ const HomePage = () => {
       <section class="home-newsletter margins">
         <img src="" alt="" />
         <div class="container">
-          <div class="heading heading-center">
+          <div class="heading heading-center content">
             <h1 class="h-semibold pr">SIGN UP FOR OUR</h1>
             <h1 class="h-bold">NEWSLETTER</h1>
           </div>
