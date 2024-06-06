@@ -42,6 +42,16 @@ const Fruits = () => {
             <img src="Granola.png" alt="mangoe" />
             <h2>MANGOE</h2>
           </div>
+
+          <div class="card">
+            <img src="Granola.png" alt="mangoe" />
+            <h2>MANGOE</h2>
+          </div>
+
+          <div class="card">
+            <img src="Granola.png" alt="mangoe" />
+            <h2>MANGOE</h2>
+          </div>
         </div>
       </section>
 

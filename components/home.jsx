@@ -11,14 +11,16 @@ const HomePage = () => {
           <h5 class="h-bold">FROM SEED TO FORK</h5>
 
           <div class="input">
+            <div></div>
             <input type="text" placeholder="What would you like to buy" />
+            <img src="./Search.png" alt="" class="" />
             <a class="button-solid">Subscribe</a>
           </div>
         </div>
       </section>
 
-{/* <!-- -----------Specialize----------- -->*/}
-      <section class="specialize">
+      {/* <!-- -----------Specialize----------- -->*/}
+      <section class="specialize margins">
         <div class="heading heading-center">
           <h1 class="pr h-semibold">WE</h1>
           <h1 class="h-bold">SPECIALIZE IN</h1>
@@ -31,7 +33,7 @@ const HomePage = () => {
               Our freeze-dried fruits boast an exceptional preservation of
               natural flavors, vibrant colors, and nutritional richness.
             </p>
-            <a>Read More</a>
+            <a class="button-clear">Read More</a>
           </div>
 
           <div class="card">
@@ -42,7 +44,7 @@ const HomePage = () => {
               and flavor, our herbs provide a convenient and long-lasting
               solution preserving its nutritional value.
             </p>
-            <a>Read More</a>
+            <a class="button-clear">Read More</a>
           </div>
 
           <div class="card">
@@ -57,17 +59,19 @@ const HomePage = () => {
               greens retain their vibrant color, nutritional integrity and
               exceptional flavor.
             </p>
-            <a>Read More</a>
+            <a class="button-clear">Read More</a>
           </div>
         </div>
       </section>
 
-      <section class="who-we-are">
+
+{/* <!-- -------------Home Who We Are-------------- --> */}
+      <section class="who-we-are margins">
         <div class="image">
           <img src="./Granola.png" alt="who we are image" class="" />
         </div>
         <div class="container">
-          <div class="heading heading-center">
+          <div class="heading center-start">
             <h1 class="h-semibold pr">WHO</h1>
             <h1 class="h-bold">WE ARE</h1>
           </div>
@@ -79,11 +83,12 @@ const HomePage = () => {
             to transform everyday natural foods into premium products that offer
             a fusion of extended shelf life and quality.
           </p>
-          <a>Read More</a>
+          <a class="button-solid">Read More</a>
         </div>
       </section>
 
-      <section class="home-newsletter">
+      {/* <!-- ---------home Newsletter--------  --> */}
+      <section class="home-newsletter margins">
         <img src="" alt="" />
         <div class="container">
           <div class="heading heading-center">
@@ -96,13 +101,13 @@ const HomePage = () => {
           </p>
           <div class="input">
             <input placeholder="Enter Your Email" type="text" />
-            <a>subscribe</a>
+            <a class="button-solid">subscribe</a>
           </div>
         </div>
       </section>
 
-{/* <!-- ---------Home Contact--------  --> */}
-      <section class="home-contact">
+      {/* <!-- ---------Home Contact--------  --> */}
+      <section class="home-contact margins">
         <div class="heading heading-center">
           <h1 class="h-semibold pr">CONTACT</h1>
           <h1 class="h-bold">US</h1>
@@ -127,15 +132,15 @@ const HomePage = () => {
           <div class="column form">
             <form>
               <div class="row center">
-                <input placeholder="Enter Your Email" type="text" />
-                <input placeholder="Enter Your Email" type="text" />
+                <input placeholder="Name" type="text" />
+                <input placeholder="Email" type="text" />
               </div>
               <div class="row center">
-                <input placeholder="Enter Your Email" type="text" />
-                <input placeholder="Enter Your Email" type="text" />
+                <input placeholder="Phone" type="text" />
+                <input placeholder="Subject" type="text" />
               </div>
               <div class="row center">
-                <textarea placeholder="Enter Your Email" type="text" />
+                <textarea placeholder="Message" type="text" />
               </div>
               <div class="row center">
                 <button>submit</button>

@@ -34,11 +34,16 @@
   padding-bottom: 2.5rem;
 }
 
+.home-layout .input{
+  position: relative;
+}
+
 .home-layout input {
-  height: 2.4rem;
+  height: 2.5rem;
   width: 16rem;
   box-sizing: border-box;
   padding: 0rem 1rem;
+  padding-left: 2.4rem;
   margin-right: 0.4rem;
   border-radius: 5rem;
   border: 0px solid black;
@@ -50,16 +55,26 @@
   color: black;
 }
 
+.home-layout .input img{
+  width: 18px;
+  height: 18px;
+
+  cursor: pointer;
+
+  position: absolute;
+  left: 0.8rem;
+  bottom: 50%;
+  transform: translateY(50%)
+}
+
 /* ------home specialize--------- */
 
 .specialize {
   width: 100%;
   height: 100%;
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 
   box-sizing: border-box;
 }
@@ -104,21 +119,6 @@
   text-align: center;
 }
 
-.specialize .container .card a {
-  color: #EA9A27;
-  border: 1px solid #EA9A27;
-  border-radius: 5rem;
-  padding: 0.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  cursor: pointer;
-}
-
-.specialize .container .card a:hover {
-  color: white;
-  background-color: #EA9A27;
-}
-
 /* ----------Who we are-------- */
 
 .who-we-are {
@@ -127,9 +127,8 @@
 
   box-sizing: border-box;
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 10%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   display: flex;
   background-color: #fbfbfb;
@@ -158,23 +157,6 @@
   padding-bottom: 2rem;
 }
 
-.who-we-are a {
-  background-color: #EA9A27;
-  color: white;
-  padding: 0.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border-radius: 5rem;
-  cursor: pointer;
-  border: 1px solid #EA9A27;
-}
-
-.who-we-are a:hover {
-  background-color: white;
-  color: #EA9A27;
-  transition: 0.6s ease;
-}
-
 /* ------------home Newsletter---------------- */
 .home-newsletter {
   height: 40vh;
@@ -198,8 +180,8 @@
 }
 
 .home-newsletter input {
-  height: 2.4rem;
-  width: 15rem;
+  height: 2.5rem;
+  width: 16rem;
   padding: 0rem 1.5rem;
   margin-right: 1rem;
   border-radius: 5rem;
@@ -212,27 +194,14 @@
   color: black;
 }
 
-.home-newsletter a {
-  background-color: #EA9A27;
-  color: white;
-  padding: 0.5rem 1.3rem;
-  border-radius: 5rem;
-  cursor: pointer;
-  border: 1px solid #EA9A27;
-}
-
-.home-newsletter a:hover {
-  background-color: white;
-  color: #EA9A27;
-}
-
 /* ------------Home contact-------------- */
 
 .home-contact {
   width: 100%;
   height: 100%;
 
-  padding: 2rem 5% 4rem 5%;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
   box-sizing: border-box;
 
   background-color: #fbfbfb;
@@ -257,7 +226,7 @@
   border-radius: 5px;
   width: 40%;
   max-width: 500px;
-  padding: 1rem 2rem;
+  padding: 2.5rem 2rem 2rem 2rem;
   margin-left: auto;
 }
 
@@ -273,21 +242,21 @@
 .home-contact .phone {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: auto;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   padding-top: 1rem;
 }
 
 .home-contact .phone img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
 }
 
 .home-contact .phone p {
   padding-left: 1rem;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0rem;
 }
 
 .home-contact input {
@@ -303,6 +272,7 @@
   font-size: 0.9rem;
   color: black;
   padding: 0rem 1rem;
+  font-family: inherit;
 }
 
 .home-contact textarea {
@@ -322,6 +292,7 @@
   text-align: start;
   font-size: 0.9rem;
   color: black;
+  font-family: inherit;
 }
 
 .home-contact button {

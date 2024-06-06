@@ -13,7 +13,7 @@ const About = () => {
       </section>
 
       {/* <!-- -----Who We Are----- --> */}
-      <section class="about-who-we-are">
+      <section class="about-who-we-are margins">
         <div class="heading heading-center">
           <h1 class="h-semibold pr">WHO</h1>
           <h1 class="h-bold">WE ARE</h1>
@@ -42,7 +42,7 @@ const About = () => {
       </section>
 
       {/* <!-- -----OUR MISSION----- --> */}
-      <section class="about-mission">
+      <section class="about-mission margins">
         <div class="heading heading-center">
           <h1 class="pr h-semibold">OUR</h1>
           <h1 class="h-bold">MISSION</h1>
@@ -65,7 +65,7 @@ const About = () => {
       </section>
 
       {/* <!-- -----OUR VALUES----- --> */}
-      <section class="about-values">
+      <section class="about-values margins">
         <div class="heading heading-center">
           <h1 class="pr h-semibold">OUR</h1>
           <h1 class="h-bold">VALUES</h1>

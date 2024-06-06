@@ -16,7 +16,7 @@ const Contact = () => {
       </section>
 
       {/* <!-- ---------------Contact Form----------------- --> */}
-      <section class="contact-form">
+      <section class="contact-form margins">
         <div class="column form">
           <form>
             <div class="row center">

@@ -16,18 +16,30 @@ body, h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
+p{
+  font-size: 1rem;
+}
+
 input[type="text"]:focus {
   outline: none !important;
 }
 
 textarea[type="text"]:focus {
   outline: none !important;
+  color: black;
+  letter-spacing: normal;
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;  
 }
 
 .text-center{
@@ -68,18 +80,9 @@ textarea[type="text"]:focus {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (max-width: 950px) {
-}
-
-@media only screen and (max-width: 600px) {
-}
-
 .button-clear {
-  color: orange;
-  border: 1px solid orange;
+  color:  #EA9A27;
+  border: 1px solid  #EA9A27;
   border-radius: 5rem;
   padding: 0.5rem;
   padding-right: 1rem;
@@ -89,19 +92,53 @@ textarea[type="text"]:focus {
 
 .button-clear:hover {
   color: white;
-  background-color: orange;
+  background-color:  #EA9A27;
 }
 
 .button-solid {
-  background-color: orange;
+  background-color:  #EA9A27;
   color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
   cursor: pointer;
-  border: 1px solid orange;
+  border: 1px solid  #EA9A27;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 .button-solid:hover {
   background-color: white;
-  color: orange;
+  color:  #EA9A27;
+}
+
+@media only screen and (min-width: 1400px) {
+  .margins {
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+  }
+
+  p{
+    font-size: 1.2rem;
+  }
+
+  .heading{
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .margins {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .margins {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    box-sizing: border-box;
+  }
 }

@@ -35,7 +35,8 @@
    height: 100%;
    display: flex;
    flex-direction: column;
-   padding: 2rem 10%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
    box-sizing: border-box;
 }
 
@@ -55,7 +56,8 @@
 .about-mission{
    height: 100%;
    width: 100%;
-   padding: 2rem 10%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
 
    box-sizing: border-box;
 
@@ -106,7 +108,8 @@
 .about-values{
    width: 100%;
    height: 100%;
-   padding: 2rem 10% 4rem 10%;
+   padding-top: 2rem;
+   padding-bottom: 4rem;
    box-sizing: border-box;
 }
 
