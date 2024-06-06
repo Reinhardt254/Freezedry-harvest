@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div class="footer">
+    <div class="footer margins">
       <div class="container">
         <div class="column">
           <h1>QUICK LINKS</h1>

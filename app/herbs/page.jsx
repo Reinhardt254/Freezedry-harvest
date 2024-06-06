@@ -6,14 +6,14 @@ const Herbs = () => {
       
       {/* <!-- ----------------Herbs Layout------------- --> */}
       <section class="herbs-layout">
-        <img src="" alt="herbs layout image" />
+        <img src="./HeroImage.png" alt="herbs layout image" />
         <div class="content">
           <h1>HERBS</h1>
         </div>
       </section>
 
       {/* <!-- ----------------Herbs Description------------- --> */}
-      <section class="herbs-desc">
+      <section class="herbs-desc margins">
         <div class="container">
           <p>
             Elevate your culinary creations with our freeze-dried herbs, perfect
@@ -29,52 +29,58 @@ const Herbs = () => {
 
 
       {/* <!-- ----------------Herbs List------------- --> */}
-      <section class="herbs-grid">
+      <section class="herbs-grid margins">
         <div class="container">
           <div class="card">
-            <img src="" alt="Garlic" />
+            <img src="Granola.png" alt="Garlic" />
             <div>
               <h2>GARLIC</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Thyme" />
+            <img src="Granola.png" alt="Thyme" />
             <div>
               <h2>THYME</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Basil" />
+            <img src="Granola.png" alt="Basil" />
             <div>
               <h2>BASIL</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Cilantro" />
+            <img src="Granola.png" alt="Cilantro" />
             <div>
               <h2>CILANTRO</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Shallots" />
+            <img src="Granola.png" alt="Shallots" />
             <div>
               <h2>SHALLOTS</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Sage" />
+            <img src="Granola.png" alt="Sage" />
             <div>
               <h2>SAGE</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Terragon" />
+            <img src="Granola.png" alt="Terragon" />
             <div>
               <h2>TARRAGON</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Cove Leaf" />
+            <img src="Granola.png" alt="Cove Leaf" />
+            <div>
+              <h2>COVE LEAF</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Granola.png" alt="Cove Leaf" />
             <div>
               <h2>COVE LEAF</h2>
             </div>
@@ -84,7 +90,7 @@ const Herbs = () => {
 
 
       {/* <!-- ----------------Herbs Contact------------- --> */}
-      <section class="products">
+      <section class="products-contact">
         <div>
           <h1 class="h-semibold">DO YOU WANT TO KNOW</h1>
           <div class="heading">
@@ -92,7 +98,7 @@ const Herbs = () => {
             <h1 class="h-bold">OUR PRODUCTS?</h1>
           </div>
           <div class="button">
-            <a>Contact Us</a>
+            <a class="button-solid">Contact Us</a>
           </div>
         </div>
       </section>

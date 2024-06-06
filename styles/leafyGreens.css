@@ -1,0 +1,69 @@
+/* -------------leafy Layout------- */
+.leafy{
+   height: 100%;
+   width: 100%;
+}
+
+.leafy-layout{
+   height: 100%;
+   width: 100%;
+
+   position: relative;
+}
+
+.leafy-layout img{
+   width: 100%;
+   height: 100%;
+}
+
+.leafy-layout .content{
+   /* width: 100%;
+   height: 100%; */
+   position: absolute;
+   left: 50%;
+   bottom: 50%;
+   transform: translate(-50%, 50%);
+}
+
+/* ------------leafy Description------------ */
+
+.leafy-desc{
+   width: 100%;
+   height: 100%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.leafy-desc p{
+   text-align: center;
+}
+
+/* ----------leafy Grid------------ */
+
+.leafy-grid{
+   width: 100%;
+   height: 100%;
+   background-color: #F7F6F1;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+
+   display: grid;
+   justify-items: center;
+}
+
+.leafy-grid img{
+  width: 10rem;
+}
+
+.leafy-grid .container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.leafy-grid .card{
+   width: 20vw;
+   margin: 2rem 1rem;
+
+   display: grid;
+   justify-items: center;
+}

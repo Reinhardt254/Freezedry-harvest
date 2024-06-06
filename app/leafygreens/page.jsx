@@ -5,14 +5,14 @@ const LeafyGreens = () => {
     <main class="leafy">
       {/* <!-- ----------------leafy Layout------------- --> */}
       <section class="leafy-layout">
-        <img src="" alt="leafy layout image" />
+        <img src="./HeroImage.png" alt="leafy layout image" />
         <div class="content">
           <h1>LEAFY GREENS</h1>
         </div>
       </section>
 
       {/* <!-- ----------------leafy Description------------- --> */}
-      <section class="leafy-desc">
+      <section class="leafy-desc margins">
         <div class="container">
           <p>
             Explore the nutritional richness of our freeze-dried leafy greens,
@@ -25,22 +25,22 @@ const LeafyGreens = () => {
       </section>
 
       {/* <!-- ----------------leafy List------------- --> */}
-      <section class="leafy-grid">
+      <section class="leafy-grid margins">
         <div class="container">
           <div class="card">
-            <img src="" alt="Garlic" />
+            <img src="Granola.png" alt="Garlic" />
             <div>
               <h2>SPINACH</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Thyme" />
+            <img src="Granola.png" alt="Thyme" />
             <div>
               <h2>TERERE</h2>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="Basil" />
+            <img src="Granola.png" alt="Basil" />
             <div>
               <h2>KALE</h2>
             </div>
@@ -49,7 +49,7 @@ const LeafyGreens = () => {
       </section>
 
       {/* <!-- ----------------leafy Contact------------- --> */}
-      <section class="products">
+      <section class="products-contact">
         <div>
           <h1 class="h-semibold">DO YOU WANT TO KNOW</h1>
           <div class="heading">
@@ -57,7 +57,7 @@ const LeafyGreens = () => {
             <h1 class="h-bold">OUR PRODUCTS?</h1>
           </div>
           <div class="button">
-            <a>Contact Us</a>
+            <a class="button-solid">Contact Us</a>
           </div>
         </div>
       </section>

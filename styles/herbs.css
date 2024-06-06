@@ -1,0 +1,69 @@
+/* -------------herbs Layout------- */
+.herbs{
+   height: 100%;
+   width: 100%;
+}
+
+.herbs-layout{
+   height: 100%;
+   width: 100%;
+
+   position: relative;
+}
+
+.herbs-layout img{
+   width: 100%;
+   height: 100%;
+}
+
+.herbs-layout .content{
+   /* width: 100%;
+   height: 100%; */
+   position: absolute;
+   left: 50%;
+   bottom: 50%;
+   transform: translate(-50%, 50%);
+}
+
+/* ------------herbs Description------------ */
+
+.herbs-desc{
+   width: 100%;
+   height: 100%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.herbs-desc p{
+   text-align: center;
+}
+
+/* ----------herbs Grid------------ */
+
+.herbs-grid{
+   width: 100%;
+   height: 100%;
+   background-color: #F7F6F1;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+
+   display: grid;
+   justify-items: center;
+}
+
+.herbs-grid img{
+  width: 10rem;
+}
+
+.herbs-grid .container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.herbs-grid .card{
+   width: 20vw;
+   margin: 2rem 1rem;
+
+   display: grid;
+   justify-items: center;
+}
