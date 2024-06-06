@@ -122,7 +122,7 @@
 }
 
 .menu{
-   cursor: pointer;
+  display: none;
 }
 
 .close{
@@ -145,6 +145,11 @@
 
    .navbar .contact{
      display: none;
+   }
+
+   .menu{
+      display: block;
+      cursor: pointer;
    }
 }
 
