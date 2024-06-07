@@ -127,7 +127,7 @@ const HomePage = () => {
         </div>
         <div class="container">
           <div class="column text">
-            <img src="./envelope icon.png" alt="message icon" />
+            <img src="./envelope icon.png" alt="message icon" class="message-icon" />
             <h1>Request A Quote</h1>
             <p>
               Lorem ipsum is simply dummy text of the printing and typesetting
