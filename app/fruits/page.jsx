@@ -37,10 +37,10 @@ const Fruits = () => {
           <div class="card">
             <img src="Granola.png" alt="pineapple" />
             <h2>PINEAPPLE</h2>
-          </div>
+          </div> 
           <div class="card">
             <img src="Granola.png" alt="mangoe" />
-            <h2>MANGOE</h2>
+            <h2>MANGOE</h2> 
           </div>
 
           <div class="card">
@@ -59,7 +59,7 @@ const Fruits = () => {
       <section class="products-contact margins">
         <div class="container heading">
           <h1 class="h-bold">DO YOU WANT TO KNOW</h1>
-          <div class="heading-center">
+          <div class="content">
             <h1 class="pr h-semibold">MORE ABOUT</h1>
             <h1 class="h-bold">OUR PRODUCTS?</h1>
           </div>

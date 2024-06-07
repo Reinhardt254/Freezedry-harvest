@@ -252,12 +252,26 @@
   
     box-sizing: border-box;
   
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   
     display: flex;
     flex-direction: column;
     background-color: #fbfbfb;
+  }
+
+  .who-we-are .container {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .who-we-are p {
+    padding-bottom: 1rem;
+  }
+
+  .who-we-are img {
+    width: 70%;
+    max-width: auto;
   }
 }
 
@@ -363,8 +377,7 @@
 .home-contact .form {
   background-color: #EA9A27;
   border-radius: 5px;
-  width: 40%;
-  max-width: 500px;
+  width: 500px;
   padding: 2.5rem 2rem 2rem 2rem;
   margin-left: auto;
   box-sizing: border-box;

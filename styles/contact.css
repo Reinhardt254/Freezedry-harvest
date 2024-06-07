@@ -120,3 +120,12 @@
    transition: 0.8s ease;
  }
  
+ @media only screen and (max-width: 600px){
+  .contact .form {
+    background-color: #EA9A27;
+    border-radius: 5px;
+    max-width: 500px;
+    min-width: auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+  }
+ }

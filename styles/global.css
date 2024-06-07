@@ -20,6 +20,11 @@ p{
   font-size: 1rem;
 }
 
+h1{
+  width: auto;
+  display: inline-block;
+}
+
 input[type="text"]:focus {
   outline: none !important;
 }
@@ -30,13 +35,31 @@ textarea[type="text"]:focus {
   letter-spacing: normal;
 }
 
+.border-line{
+  border-bottom: 0.01rem solid gray;
+  display: block;
+  width: 33%;
+  margin: 0rem 1rem;
+}
+
+.border-line-full{
+  border-bottom: 0.01rem solid gray;
+  display: block;
+  width: 50%;
+  margin: 0rem 1rem;
+}
+
 .center {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .center-start{
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;  
@@ -58,10 +81,20 @@ textarea[type="text"]:focus {
 
 .heading-center {
   text-align: center;
-  width: 100%;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.heading-start {
+  text-align: start;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .heading {
@@ -111,6 +144,22 @@ textarea[type="text"]:focus {
   color:  #EA9A27;
 }
 
+@media only screen and (min-width: 600px) {
+  .large-hidden{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .small-hidden{
+    display: none;
+  }
+
+  .border-line{
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   .margins {
     padding-left: 15%;
@@ -136,6 +185,10 @@ textarea[type="text"]:focus {
 }
 
 @media only screen and (max-width: 600px) {
+  .small-hidden{
+    display: none;
+  }
+
   .margins {
     padding-left: 0.8rem;
     padding-right: 0.8rem;

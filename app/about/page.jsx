@@ -14,9 +14,13 @@ const About = () => {
 
       {/* <!-- -----Who We Are----- --> */}
       <section class="about-who-we-are margins">
-        <div class="heading heading-center">
-          <h1 class="h-semibold pr">WHO</h1>
-          <h1 class="h-bold">WE ARE</h1>
+        <div class="center">
+          <div class="border-line"></div>
+          <div class="heading heading-center">
+            <h1 class="h-semibold pr">WHO</h1>
+            <h1 class="h-bold">WE ARE</h1>
+          </div>
+          <div class="border-line"></div>
         </div>
         <div class="container">
           <p>
@@ -43,52 +47,93 @@ const About = () => {
 
       {/* <!-- -----OUR MISSION----- --> */}
       <section class="about-mission margins">
-        <div class="heading heading-center">
-          <h1 class="pr h-semibold">OUR</h1>
-          <h1 class="h-bold">MISSION</h1>
+        <div class="center">
+          <div class="border-line"></div>
+          <div class="heading heading-center">
+            <h1 class="pr h-semibold">OUR</h1>
+            <h1 class="h-bold">MISSION</h1>
+          </div>
+          <div class="border-line"></div>
         </div>
         <div class="container">
           <div class="text">
-          <p>
-            At Freezedry Harvest Kenya EPZ Ltd, our mission is to consistently
-            provide high-quality products, stay at the forefront of
-            freeze-drying technology, and steadfastly support local farmers. We
-            aim to elevate food preservation standards, embracing innovation
-            while nurturing sustainable partnerships with local growers for a
-            resilient and impactful future.
-          </p>
+            <p>
+              At Freezedry Harvest Kenya EPZ Ltd, our mission is to consistently
+              provide high-quality products, stay at the forefront of
+              freeze-drying technology, and steadfastly support local farmers.
+              We aim to elevate food preservation standards, embracing
+              innovation while nurturing sustainable partnerships with local
+              growers for a resilient and impactful future.
+            </p>
           </div>
           <div class="image">
-            <img src="./aboutmission.png" alt="our mission image" loading="lazy" />
+            <img
+              src="./aboutmission.png"
+              alt="our mission image"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
 
       {/* <!-- -----OUR VALUES----- --> */}
       <section class="about-values margins">
-        <div class="heading heading-center">
-          <h1 class="pr h-semibold">OUR</h1>
-          <h1 class="h-bold">VALUES</h1>
+        <div class="center">
+          <div class="border-line"></div>
+          <div class="heading heading-center">
+            <h1 class="pr h-semibold">OUR</h1>
+            <h1 class="h-bold">VALUES</h1>
+          </div>
+          <div class="border-line"></div>
         </div>
         <div>
-          <img src="./Values.png" alt="our values icons" loading="lazy" />
+          <img
+            class="small-hidden"
+            src="./Values.png"
+            alt="our values icons"
+            loading="lazy"
+          />
           <div class="container">
             <div class="column">
+              <img
+                class="large-hidden"
+                src="./Value 1.png"
+                alt="our values icons"
+                loading="lazy"
+              />
               <h1>Premium</h1>
               <p>
-                The brand exudes an air of premium quality & exclusivity. It is associated with the finest freeze-dried products and sets a standard of excellence that stands out in the market.
+                The brand exudes an air of premium quality & exclusivity. It is
+                associated with the finest freeze-dried products and sets a
+                standard of excellence that stands out in the market.
               </p>
             </div>
             <div class="column">
+              <img
+                class="large-hidden"
+                src="./Value 2.png"
+                alt="our values icons"
+                loading="lazy"
+              />
               <h1>Reliable</h1>
               <p>
-                The brand exudes an air of premium quality & exclusivity. It is associated with the finest freeze-dried products and sets a standard of excellence that stands out in the market.
+                The brand exudes an air of premium quality & exclusivity. It is
+                associated with the finest freeze-dried products and sets a
+                standard of excellence that stands out in the market.
               </p>
             </div>
             <div class="column">
+              <img
+                class="large-hidden"
+                src="./Value 3.png"
+                alt="our values icons"
+                loading="lazy"
+              />
               <h1>Sophisticated</h1>
               <p>
-                The brand exudes an air of premium quality & exclusivity. It is associated with the finest freeze-dried products and sets a standard of excellence that stands out in the market.
+                The brand exudes an air of premium quality & exclusivity. It is
+                associated with the finest freeze-dried products and sets a
+                standard of excellence that stands out in the market.
               </p>
             </div>
           </div>

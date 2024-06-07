@@ -67,3 +67,34 @@
    display: grid;
    justify-items: center;
 }
+
+
+@media only screen and (max-width: 600px){
+   .leafy-grid{
+      width: 100%;
+      height: 100%;
+      background-color: #F7F6F1;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+   
+      display: grid;
+      justify-items: center;
+   }
+
+   .leafy-grid .container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .leafy-grid .card{
+      width: 40vw;
+      margin: 2rem 1rem;
+   
+      display: grid;
+      justify-items: center;
+   }
+
+   .leafy-grid img{
+      width: 80%;
+    }
+}

@@ -34,6 +34,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="/about">About Us</a>
+          <a href="/contact">Contact</a>
           <div class="dropdown">
             <a class="dropbtn">Products</a>
             <div class="content">

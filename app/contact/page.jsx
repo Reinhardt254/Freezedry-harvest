@@ -14,21 +14,21 @@ const Contact = () => {
           </h1>
         </div>
       </section>
-
+ 
       {/* <!-- ---------------Contact Form----------------- --> */}
       <section class="contact-form margins">
         <div class="column form">
           <form>
             <div class="row center">
-              <input placeholder="Enter Your Email" type="text" />
-              <input placeholder="Enter Your Email" type="text" />
+              <input placeholder="Enter Your Email" type="text" required={true}/>
+              <input placeholder="Enter Your Email" type="text" required={true}/>
             </div>
             <div class="row center">
-              <input placeholder="Enter Your Email" type="text" />
-              <input placeholder="Enter Your Email" type="text" />
+              <input placeholder="Enter Your Email" type="text" required={true}/>
+              <input placeholder="Enter Your Email" type="text" required={true}/>
             </div>
             <div class="row center">
-              <textarea placeholder="Enter Your Email" type="text" />
+              <textarea placeholder="Enter Your Email" type="text" required={true}/>
             </div>
             <div class="row center">
               <button>submit</button>

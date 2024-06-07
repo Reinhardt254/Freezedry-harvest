@@ -10,19 +10,27 @@ const HomePage = () => {
           <h3 class="h-semibold">KENYA EPZ LTD</h3>
           <h5 class="h-bold">FROM SEED TO FORK</h5>
 
-          <div class="input">
-            <input type="text" placeholder="What would you like to buy" />
+          <form class="input">
+            <input
+              type="text"
+              placeholder="What would you like to buy"
+              required={true}
+            />
             <img src="./Search.png" alt="" class="" />
-            <a class="button-solid">Subscribe</a>
-          </div>
+            <button class="button-solid">Subscribe</button>
+          </form>
         </div>
       </section>
 
       {/* <!-- -----------Specialize----------- -->*/}
       <section class="specialize margins">
-        <div class="heading heading-center">
-          <h1 class="pr h-semibold">WE</h1>
-          <h1 class="h-bold">SPECIALIZE IN</h1>
+        <div class="center">
+          <div class="border-line"></div>
+          <div class="heading-center heading">
+            <h1 class="pr h-semibold">WE</h1>
+            <h1 class="h-bold">SPECIALIZE IN</h1>
+          </div>
+          <div class="border-line"></div>
         </div>
         <div class="container">
           <div class="card">
@@ -34,7 +42,7 @@ const HomePage = () => {
             </p>
             <a class="button-clear">Read More</a>
           </div>
- 
+
           <div class="card">
             <img src="./Herbs Icon.png" alt="Herbs Icon" class="" />
             <h1 class="subheading">Herbs</h1>
@@ -63,16 +71,18 @@ const HomePage = () => {
         </div>
       </section>
 
-
-{/* <!-- -------------Home Who We Are-------------- --> */}
+      {/* <!-- -------------Home Who We Are-------------- --> */}
       <section class="who-we-are margins">
         <div class="image">
           <img src="./Granola.png" alt="who we are image" class="" />
         </div>
         <div class="container">
-          <div class="heading center-start">
-            <h1 class="h-semibold pr">WHO</h1>
-            <h1 class="h-bold">WE ARE</h1>
+          <div class="center-start">
+            <div class="heading heading-start">
+              <h1 class="h-semibold pr">WHO</h1>
+              <h1 class="h-bold">WE ARE</h1>
+            </div>
+            <div class="border-line-full"></div>
           </div>
           <p>
             We are on a mission to enhance the longetivity of natural
@@ -98,18 +108,22 @@ const HomePage = () => {
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <div class="input">
-            <input placeholder="Enter Your Email" type="text" />
-            <a class="button-solid">subscribe</a>
-          </div>
+          <form class="input">
+            <input placeholder="Enter Your Email" type="text" required={true} />
+            <button class="button-solid">subscribe</button>
+          </form>
         </div>
       </section>
 
       {/* <!-- ---------Home Contact--------  --> */}
       <section class="home-contact margins">
-        <div class="heading heading-center">
-          <h1 class="h-semibold pr">CONTACT</h1>
-          <h1 class="h-bold">US</h1>
+        <div class="center">
+          <div class="border-line"></div>
+          <div class="heading heading-center">
+            <h1 class="h-semibold pr">CONTACT</h1>
+            <h1 class="h-bold">US</h1>
+          </div>
+          <div class="border-line"></div>
         </div>
         <div class="container">
           <div class="column text">
@@ -131,15 +145,15 @@ const HomePage = () => {
           <div class="column form">
             <form>
               <div class="row center">
-                <input placeholder="Name" type="text" />
-                <input placeholder="Email" type="text" />
+                <input placeholder="Name" type="text" required={true} />
+                <input placeholder="Email" type="text" required={true} />
               </div>
               <div class="row center">
-                <input placeholder="Phone" type="text" />
-                <input placeholder="Subject" type="text" />
+                <input placeholder="Phone" type="text" required={true} />
+                <input placeholder="Subject" type="text" required={true} />
               </div>
               <div class="row center">
-                <textarea placeholder="Message" type="text" />
+                <textarea placeholder="Message" type="text" required={true} />
               </div>
               <div class="row center">
                 <button>submit</button>

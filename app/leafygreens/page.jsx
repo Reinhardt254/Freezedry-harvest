@@ -49,10 +49,10 @@ const LeafyGreens = () => {
       </section>
 
       {/* <!-- ----------------leafy Contact------------- --> */}
-      <section class="products-contact">
-        <div>
-          <h1 class="h-semibold">DO YOU WANT TO KNOW</h1>
-          <div class="heading">
+      <section class="products-contact margins">
+        <div class="container heading">
+          <h1 class="h-bold">DO YOU WANT TO KNOW</h1>
+          <div class="content">
             <h1 class="pr h-semibold">MORE ABOUT</h1>
             <h1 class="h-bold">OUR PRODUCTS?</h1>
           </div>
