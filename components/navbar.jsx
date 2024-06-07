@@ -43,7 +43,6 @@ const Navbar = () => {
               <a href="/leafygreens">Leafygreens</a>
             </div>
           </div>
-
           <div onClick={() => setToggle(false)} class="close">close</div>
         </div>
       )}
