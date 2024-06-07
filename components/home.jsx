@@ -40,7 +40,7 @@ const HomePage = () => {
               Our freeze-dried fruits boast an exceptional preservation of
               natural flavors, vibrant colors, and nutritional richness.
             </p>
-            <a class="button-clear">Read More</a>
+            <a class="button-clear" href="/fruits">Read More</a>
           </div>
 
           <div class="card">
@@ -51,7 +51,7 @@ const HomePage = () => {
               and flavor, our herbs provide a convenient and long-lasting
               solution preserving its nutritional value.
             </p>
-            <a class="button-clear">Read More</a>
+            <a class="button-clear" href="/herbs">Read More</a>
           </div>
 
           <div class="card">
@@ -66,7 +66,7 @@ const HomePage = () => {
               greens retain their vibrant color, nutritional integrity and
               exceptional flavor.
             </p>
-            <a class="button-clear">Read More</a>
+            <a class="button-clear" href="/leafygreens">Read More</a>
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@ const HomePage = () => {
             to transform everyday natural foods into premium products that offer
             a fusion of extended shelf life and quality.
           </p>
-          <a class="button-solid">Read More</a>
+          <a class="button-solid" href="/about">Read More</a>
         </div>
       </section>
 

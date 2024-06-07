@@ -64,7 +64,7 @@ const Fruits = () => {
             <h1 class="h-bold">OUR PRODUCTS?</h1>
           </div>
           <div class="button">
-            <a class="button-solid">Contact Us</a>
+            <a class="button-solid" href="/contact">Contact Us</a>
           </div>
         </div>
       </section>
