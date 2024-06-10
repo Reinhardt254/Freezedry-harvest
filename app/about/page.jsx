@@ -5,11 +5,12 @@ const About = () => {
     <main>
       {/* <!-- -----About Layout----- --> */}
       <section class="about-layout">
-        <img src="./who we are.png" alt="about heroe image" loading="lazy" />
+        <img src="./leaf1.png" class="leaf-left" alt="about heroe image" />
         <div class="container">
           <h1 class="h-bold">LEAVING A MARK IN THE</h1>
           <h1 class="h-semibold">FOOD PRESERVATION INDUSTRY</h1>
         </div>
+        <img src="./leaf2.png" class="leaf-right" alt="about heroe image" />
       </section>
 
       {/* <!-- -----Who We Are----- --> */}
@@ -74,6 +75,7 @@ const About = () => {
             />
           </div>
         </div>
+        <img src="./leaf2.png" class="about-leaf-right" alt="about heroe image" />
       </section>
 
       {/* <!-- -----OUR VALUES----- --> */}

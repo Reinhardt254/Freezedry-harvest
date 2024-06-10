@@ -43,7 +43,13 @@ const Navbar = () => {
               <a href="/leafygreens">Leafygreens</a>
             </div>
           </div>
-          <div onClick={() => setToggle(false)} class="close">close</div>
+          <div onClick={() => setToggle(false)} class="close">
+            <img
+              src="https://plantechkenya.com/wp-content/uploads/2024/05/cross.png"
+              alt="menu icon"
+              class="nav-icon"
+            />
+          </div>
         </div>
       )}
 
@@ -54,7 +60,11 @@ const Navbar = () => {
       </div>
 
       <div onClick={() => setToggle(true)} class="menu">
-        Menu
+        <img
+          src="https://plantechkenya.com/wp-content/uploads/2024/05/menu.png"
+          alt="close-icon"
+          class="nav-icon"
+        />
       </div>
     </div>
   );

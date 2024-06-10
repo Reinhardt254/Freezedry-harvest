@@ -1,10 +1,9 @@
-import React from "react";
-
 const HomePage = () => {
   return (
     <main>
       <section class="home-layout">
-        <img src="./HeroImage.png" alt="" class="" />
+        <img src="./HeroImage.png" alt="" class="layout-image" />
+        <img src="./leaf1.png" class="leaf-left large-hidden" alt="about heroe image" />
         <div class="container">
           <h1 class="h-bold">FREEZEDRY HARVEST</h1>
           <h3 class="h-semibold">KENYA EPZ LTD</h3>
@@ -20,6 +19,7 @@ const HomePage = () => {
             <button class="button-solid">Subscribe</button>
           </form>
         </div>
+        <img src="./leaf2.png" class="leaf-right large-hidden" alt="about heroe image" />
       </section>
 
       {/* <!-- -----------Specialize----------- -->*/}
@@ -40,7 +40,9 @@ const HomePage = () => {
               Our freeze-dried fruits boast an exceptional preservation of
               natural flavors, vibrant colors, and nutritional richness.
             </p>
-            <a class="button-clear" href="/fruits">Read More</a>
+            <a class="button-clear" href="/fruits">
+              Read More
+            </a>
           </div>
 
           <div class="card">
@@ -51,7 +53,9 @@ const HomePage = () => {
               and flavor, our herbs provide a convenient and long-lasting
               solution preserving its nutritional value.
             </p>
-            <a class="button-clear" href="/herbs">Read More</a>
+            <a class="button-clear" href="/herbs">
+              Read More
+            </a>
           </div>
 
           <div class="card">
@@ -66,13 +70,16 @@ const HomePage = () => {
               greens retain their vibrant color, nutritional integrity and
               exceptional flavor.
             </p>
-            <a class="button-clear" href="/leafygreens">Read More</a>
+            <a class="button-clear" href="/leafygreens">
+              Read More
+            </a>
           </div>
         </div>
       </section>
 
       {/* <!-- -------------Home Who We Are-------------- --> */}
       <section class="who-we-are margins">
+        <img src="./leaf1.png" class="leaf-left" alt="about heroe image" />
         <div class="image">
           <img src="./Granola.png" alt="who we are image" class="" />
         </div>
@@ -92,8 +99,11 @@ const HomePage = () => {
             to transform everyday natural foods into premium products that offer
             a fusion of extended shelf life and quality.
           </p>
-          <a class="button-solid" href="/about">Read More</a>
+          <a class="button-solid" href="/about">
+            Read More
+          </a>
         </div>
+        <img src="./leaf2.png" class="leaf-right" alt="about heroe image" />
       </section>
 
       {/* <!-- ---------home Newsletter--------  --> */}
@@ -127,7 +137,11 @@ const HomePage = () => {
         </div>
         <div class="container">
           <div class="column text">
-            <img src="./envelope icon.png" alt="message icon" class="message-icon" />
+            <img
+              src="./envelope icon.png"
+              alt="message icon"
+              class="message-icon"
+            />
             <h1>Request A Quote</h1>
             <p>
               Lorem ipsum is simply dummy text of the printing and typesetting
@@ -143,17 +157,52 @@ const HomePage = () => {
             </div>
           </div>
           <div class="column form">
-            <form>
+            <form method="post" name="contact-form" class="forms">
               <div class="row center">
-                <input placeholder="Name" type="text" required={true} />
-                <input placeholder="Email" type="text" required={true} />
+                <input
+                  name="name"
+                  placeholder="Name"
+                  type="text"
+                  required={true}
+                  // value={formData.name}
+                  // onChange={handleChange}
+                />
+                <input
+                  name="email"
+                  placeholder="Email"
+                  type="text"
+                  required={true}
+                  // value={formData.email}
+                  // onChange={handleChange}
+                />
               </div>
               <div class="row center">
-                <input placeholder="Phone" type="text" required={true} />
-                <input placeholder="Subject" type="text" required={true} />
+                <input
+                  name="phone"
+                  placeholder="Phone"
+                  type="text"
+                  required={true}
+                  // value={formData.phone}
+                  // onChange={handleChange}
+                />
+                <input
+                  name="subject"
+                  placeholder="Subject"
+                  type="text"
+                  required={true}
+                  // value={formData.subject}
+                  // onChange={handleChange}
+                />
               </div>
               <div class="row center">
-                <textarea placeholder="Message" type="text" required={true} />
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  type="text"
+                  required={true}
+                  // value={formData.message}
+                  // onChange={handleChange}
+                />
               </div>
               <div class="row center">
                 <button>submit</button>

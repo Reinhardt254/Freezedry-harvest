@@ -12,15 +12,21 @@ a {
   text-decoration: none;
 }
 
-body, h1, h2, h3, h4, h5, p {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
 }
 
-p{
+p {
   font-size: 1rem;
 }
 
-h1{
+h1 {
   width: auto;
   display: inline-block;
 }
@@ -35,14 +41,35 @@ textarea[type="text"]:focus {
   letter-spacing: normal;
 }
 
-.border-line{
+.leaf-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+}
+
+.leaf-right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 6rem;
+}
+
+.about-leaf-right{
+  position: absolute;
+  right: 0;
+  bottom: -25%;
+  width: 6rem;
+}
+
+.border-line {
   border-bottom: 0.01rem solid gray;
   display: block;
   width: 30%;
   margin: 0rem 1rem;
 }
 
-.border-line-full{
+.border-line-full {
   border-bottom: 0.01rem solid gray;
   display: block;
   width: 50%;
@@ -55,29 +82,30 @@ textarea[type="text"]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
-.center-start{
+.center-start {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: center;
 }
 
-.text-center{
-   text-align: center;
+.text-center {
+  text-align: center;
 }
 
 .margins {
-   padding-left: 10%;
-   padding-right: 10%;
-   box-sizing: border-box;
- }
- 
- .pr {
-   padding-right: 0.4rem;
- }
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+}
+
+.pr {
+  padding-right: 0.4rem;
+}
 
 .heading-center {
   text-align: center;
@@ -114,8 +142,8 @@ textarea[type="text"]:focus {
 }
 
 .button-clear {
-  color:  #EA9A27;
-  border: 1px solid  #EA9A27;
+  color: #ea9a27;
+  border: 1px solid #ea9a27;
   border-radius: 5rem;
   padding: 0.5rem;
   padding-right: 1rem;
@@ -125,37 +153,33 @@ textarea[type="text"]:focus {
 
 .button-clear:hover {
   color: white;
-  background-color:  #EA9A27;
+  background-color: #ea9a27;
 }
 
 .button-solid {
-  background-color:  #EA9A27;
+  background-color: #ea9a27;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 10rem;
   cursor: pointer;
-  border: 1px solid  #EA9A27;
+  border: 1px solid #ea9a27;
   font-size: 1rem;
   font-weight: 100;
 }
 
 .button-solid:hover {
   background-color: white;
-  color:  #EA9A27;
+  color: #ea9a27;
 }
 
 @media only screen and (min-width: 600px) {
-  .large-hidden{
+  .large-hidden {
     display: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .small-hidden{
-    display: none;
-  }
-
-  .border-line{
+  .small-hidden {
     display: none;
   }
 }
@@ -167,11 +191,11 @@ textarea[type="text"]:focus {
     box-sizing: border-box;
   }
 
-  p{
+  p {
     font-size: 1.2rem;
   }
 
-  .heading{
+  .heading {
     font-size: 1.4rem;
   }
 }
@@ -185,13 +209,60 @@ textarea[type="text"]:focus {
 }
 
 @media only screen and (max-width: 600px) {
-  .small-hidden{
+  .leaf-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+  }
+  
+  .leaf-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+  }
+
+  .small-hidden {
     display: none;
+  }
+
+  .border-line {
+    border-bottom: 0.01rem solid gray;
+    display: block;
+    width: 15%;
+    margin: 0rem 1rem;
+  }
+
+  .border-line-full {
+    border-bottom: 0.01rem solid gray;
+    display: block;
+    width: 40%;
+    margin: 0rem 1rem;
   }
 
   .margins {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     box-sizing: border-box;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 0.95rem;
+  }
+
+  .subheading {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .border-line {
+    display: none;
   }
 }
