@@ -221,6 +221,14 @@ textarea[type="text"]:focus {
     right: 0;
     bottom: 0;
     width: 4rem;
+    z-index: 1;
+  }
+
+  .about-leaf-right{
+    position: absolute;
+    right: 0;
+    bottom: -12%;
+    width: 4rem;
   }
 
   .small-hidden {
