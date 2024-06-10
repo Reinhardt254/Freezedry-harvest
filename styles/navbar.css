@@ -11,6 +11,7 @@
   padding-right: 10%;
   z-index: 10;
   position: relative;
+  padding: 0.4rem 0rem 0rem 0rem;
 }
 
 .navbar .logo{
@@ -173,7 +174,6 @@
 @media only screen and (max-width: 600px) {
   .navbar .logo img {
     width: 40vw;
-    padding: 0.3rem 0rem 0rem 0rem;
   }
 
   .navbar .links {
