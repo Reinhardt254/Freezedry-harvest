@@ -14,9 +14,12 @@ const Navbar = () => {
       </div>
 
       <div class="links">
-        <a href="/" class="">
-          Home
-        </a>
+        <div class="container">
+          <img src="./focus.png" alt="focus icon" />
+          <a href="/" class="">
+            Home
+          </a>
+        </div>
         <a href="/about">About Us</a>
         <div class="dropdown">
           <a class="dropbtn">Products</a>

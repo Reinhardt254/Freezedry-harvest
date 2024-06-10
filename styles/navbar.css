@@ -79,6 +79,18 @@
   padding: 0;
 }
 
+.navbar .links .container{
+  position: relative;
+}
+
+.navbar .links .container img{
+  width: 24px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
 /* ------------Navbar Product dropdown------------ */
 .navbar .dropdown {
   position: relative;
