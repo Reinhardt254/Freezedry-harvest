@@ -1,8 +1,12 @@
+import { ProductsNav } from "@/components/navbar";
 import React from "react";
 
 const Herbs = () => {
   return (
     <main class="herbs">
+      <nav>
+        <ProductsNav />
+      </nav>
       {/* <!-- ----------------Herbs Layout------------- --> */}
       <section class="herbs-layout">
         <img src="./HeroImage.png" alt="herbs layout image" />

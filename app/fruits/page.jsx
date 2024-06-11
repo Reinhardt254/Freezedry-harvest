@@ -1,8 +1,12 @@
+import { ProductsNav } from "@/components/navbar";
 import React from "react";
 
 const Fruits = () => {
   return (
     <main class="fruits">
+      <nav>
+        <ProductsNav />
+      </nav>
       {/* <!-- ----------Fruits Layout--------- --> */}
       <section class="fruits-layout">
         <img src="./HeroImage.png" alt="Fruits image" />
@@ -55,7 +59,7 @@ const Fruits = () => {
         </div>
       </section>
 
-      {/* <!-- ----------------Fruits Contact------------- --> */}
+      {/* <!-- ----------------Fruits Contact------------- --> */} 
       <section class="products-contact margins">
         <div class="container heading">
           <h1 class="h-bold">DO YOU WANT TO KNOW</h1>

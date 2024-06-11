@@ -108,7 +108,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .footer .column {
@@ -116,7 +116,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 0rem;
   }
@@ -125,10 +125,10 @@
     width: 100%;
     height: 100%;
     display: flex;
-    text-align: center;
+    text-align: start;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-top: 2rem;
   }
 
@@ -139,7 +139,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
   }
 
   .footer .column .row {
@@ -155,11 +156,13 @@
     font-weight: 400;
     margin: 0;
     padding-bottom: 0.5rem;
-    text-align: center;
+    text-align: start;
     width: 100%;
+    display: none;
   }
 
   .footer .column .links {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,10 +170,11 @@
   }
 
   .footer .column .links a {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 0.5rem;
     cursor: pointer;
     text-align: center;
@@ -186,5 +190,11 @@
     padding: 2rem 0rem;
     margin-top: 2rem;
     border-top: 0.06rem solid gray;
+  }
+
+  .footer .column .row img {
+    width: 30px;
+    height: 30px;
+    display: none;
   }
 }

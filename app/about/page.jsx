@@ -1,8 +1,12 @@
+import { AboutNav } from "@/components/navbar";
 import React from "react";
 
 const About = () => {
   return (
     <main>
+      <nav>
+        <AboutNav />
+      </nav>
       {/* <!-- -----About Layout----- --> */}
       <section class="about-layout">
         <img src="./leaf1.png" class="leaf-left" alt="about heroe image" />

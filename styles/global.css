@@ -72,7 +72,7 @@ textarea[type="text"]:focus {
 .border-line-full {
   border-bottom: 0.01rem solid gray;
   display: block;
-  width: 50%;
+  width: 45%;
   margin: 0rem 1rem;
 }
 

@@ -1,8 +1,12 @@
+import { ProductsNav } from "@/components/navbar";
 import React from "react";
 
 const LeafyGreens = () => {
   return (
     <main class="leafy">
+      <nav>
+        <ProductsNav />
+      </nav>
       {/* <!-- ----------------leafy Layout------------- --> */}
       <section class="leafy-layout">
         <img src="./HeroImage.png" alt="leafy layout image" />

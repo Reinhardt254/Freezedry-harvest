@@ -29,13 +29,28 @@
 
 .fruits-desc{
    width: 100%;
-   height: 100%;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   height: auto;
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
 }
 
 .fruits-desc p{
    text-align: center;
+   height: auto;
+}
+
+@media only screen and (min-width: 1400px){
+   .fruits-desc{
+      width: 100%;
+      height: auto;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 20%;
+      padding-right: 20%;
+   }
 }
 
 /* ----------Fruits Grid------------ */
@@ -102,13 +117,21 @@
 
 .products-contact{
    text-align: center;
-   padding-top: 3rem;
-   padding-bottom: 4rem;
+   min-height: 40vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.products-contact .container{
+   height: auto;
 }
 
 .products-contact .container .content{
    text-align: center;
    width: 100%;
+   height: auto;
    display: flex;
    justify-content: center;
    align-items: center; 
@@ -123,6 +146,16 @@
 }
 
 @media only screen and (max-width: 600px){
+   .products-contact{
+      text-align: center;
+      min-height: 35vh;
+      padding-bottom: 1rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
    .products-contact .container .content{
       text-align: center;
       width: 100%;

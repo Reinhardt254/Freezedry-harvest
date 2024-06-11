@@ -1,8 +1,12 @@
+import { ContactsNav } from "@/components/navbar";
 import React from "react";
 
 const Contact = () => {
   return (
     <main class="contact">
+      <div>
+        <ContactsNav />
+      </div>
       {/* <!-- --------------Contact Layout---------- --> */}
       <section class="contact-layout">
         <div class="container">
