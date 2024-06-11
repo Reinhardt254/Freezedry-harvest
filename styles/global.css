@@ -149,6 +149,8 @@ textarea[type="text"]:focus {
   padding-right: 1rem;
   padding-left: 1rem;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .button-clear:hover {
@@ -164,7 +166,7 @@ textarea[type="text"]:focus {
   cursor: pointer;
   border: 1px solid #ea9a27;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .button-solid:hover {
