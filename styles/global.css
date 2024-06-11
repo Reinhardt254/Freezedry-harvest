@@ -159,12 +159,12 @@ textarea[type="text"]:focus {
 .button-solid {
   background-color: #ea9a27;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 10rem;
   cursor: pointer;
   border: 1px solid #ea9a27;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .button-solid:hover {

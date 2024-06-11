@@ -120,7 +120,7 @@ const HomePage = () => {
           </p>
           <form class="input">
             <input placeholder="Enter Your Email" type="text" required={true} />
-            <button class="button-solid">subscribe</button>
+            <button class="button-solid">Subscribe</button>
           </form>
         </div>
       </section>

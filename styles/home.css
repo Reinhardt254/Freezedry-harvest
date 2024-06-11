@@ -95,7 +95,7 @@
   .layout-image {
     display: none;
   } 
-  
+   
   .home-layout .input img{
     width: 18px;
     height: 18px;
@@ -271,7 +271,7 @@
     box-sizing: border-box;
   
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   
     display: flex;
     flex-direction: column;
@@ -284,7 +284,7 @@
   }
 
   .who-we-are p {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   .who-we-are .image img {
