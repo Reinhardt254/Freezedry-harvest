@@ -5,7 +5,7 @@ const Footer = () => {
     <div class="footer margins">
       <div class="container">
         <div class="column">
-          <h1>QUICK LINKS</h1>
+          {/* <h1>QUICK LINKS</h1> */}
           <div class="links">
             <a href="/">Home</a>
             <a href="/about">About Us</a>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div class="column">
-          <h1>GET IN TOUCH</h1>
+          {/* <h1>GET IN TOUCH</h1> */}
           <div class="row">
             <img src="./Icons/phone.png" class="icon" alt="phone number icon" />
             <p>+91 123 456 7890</p>

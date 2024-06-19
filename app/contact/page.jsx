@@ -24,15 +24,15 @@ const Contact = () => {
         <div class="column form">
           <form>
             <div class="row center">
-              <input placeholder="Enter Your Email" type="text" required={true}/>
-              <input placeholder="Enter Your Email" type="text" required={true}/>
+              <input placeholder="Name" type="text" required={true}/>
+              <input placeholder="Email" type="text" required={true}/>
             </div>
             <div class="row center">
-              <input placeholder="Enter Your Email" type="text" required={true}/>
-              <input placeholder="Enter Your Email" type="text" required={true}/>
+              <input placeholder="Name" type="text" required={true}/>
+              <input placeholder="Subject" type="text" required={true}/>
             </div>
             <div class="row center">
-              <textarea placeholder="Enter Your Email" type="text" required={true}/>
+              <textarea placeholder="Message" type="text" required={true}/>
             </div>
             <div class="row center">
               <button>submit</button>

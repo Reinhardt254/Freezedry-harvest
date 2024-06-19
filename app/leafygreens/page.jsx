@@ -9,7 +9,7 @@ const LeafyGreens = () => {
       </nav>
       {/* <!-- ----------------leafy Layout------------- --> */}
       <section class="leafy-layout">
-        <img src="./HeroImage.png" alt="leafy layout image" />
+        <img src="https://sienna-kingfisher-353628.hostingersite.com/wp-content/uploads/2024/06/Fruits-image.png" alt="leafy layout image" />
         <div class="content">
           <h1>LEAFY GREENS</h1>
         </div>
