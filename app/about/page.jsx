@@ -1,5 +1,4 @@
 import { AboutNav } from "@/components/navbar";
-import React from "react";
 
 const About = () => {
   return (
